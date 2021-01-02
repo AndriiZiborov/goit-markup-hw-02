@@ -44,11 +44,11 @@ font-family: Roboto;
     font-size: 26px;
 }
 
-.studio:visited { 
+/* .studio:visited { 
     color: var(--accent-color); 
-}
+} */
 
-.nav-site. .link .current {
+.nav-site .link.current {
     color: var(--accent-color); 
 }
 
