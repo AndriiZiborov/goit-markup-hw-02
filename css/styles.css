@@ -1,0 +1,149 @@
+
+:root {
+    --primary-text-color: #212121; 
+    --accent-color: #2196F3;
+    --second-text-color: #757575; 
+    --primary-bg-color: #E5E5E5;
+}
+
+
+
+/* основной цвет текста #212121 */ 
+/* цвет вторичного текста #757575  */
+/* цвет акцента #2196F3*/
+/* темный цвет фона #2F303A */
+/* светлый цвет фона #E5E5E5 */
+/* средний цвет фона #F5F4FA */
+/* белый цвет #FFFFFF */
+/* белый прозрачный rgba(255, 255, 255, 0.6 */
+
+
+
+body {
+background-color: #ffffff
+color: var(--primary-text-color);
+
+
+font-family: Roboto; 
+}
+
+/* site nav */
+.list {
+    list-style: none;
+}
+
+.nav-logo {
+    color: var(--primary-text-color);
+}
+
+.nav-site > a{
+
+    color: var(--accent-color);
+
+    font-family: Raleway;
+    font-size: 26px;
+}
+
+.studio:visited { 
+    color: var(--accent-color); 
+}
+
+.nav-site. .link .current {
+    color: var(--accent-color); 
+}
+
+.link {
+    color: var(--primary-text-color);
+}
+
+/*  -----------НЕ РАБОТАЕТ  */
+.nav-site > a:hover, .nav-site > a:focus {
+    color:  var(--second-text-color);
+}
+    
+.nav-site .link:hover, .nav-site .link:focus {
+    color: var(--accent-color);
+}
+
+.contacts {
+    color: var(--second-text-color);
+}
+
+/* заказ услуги */
+.service-container {
+    background-color: #2F303A;
+}
+.service-title {
+    color: #ffffff
+}
+
+/* Soft skills */
+.softskills {
+    background-color: #F5F4FA;
+}
+
+.softskills-text {
+  color: var(--second-text-color);  
+}
+
+.activity-container {
+    background-color: #F5F4FA;
+}
+
+/* Наша команда */
+.team {
+    background-color: var(--primary-bg-color);
+}
+.specialty {
+    color: var(--second-text-color);
+}
+
+/* футер */
+
+footer {
+    background-color: #2F303A;
+    color: #ffffff;
+}
+
+.footer-logo {
+    color: #ffffff;
+}
+
+.footer-logo:hover, .footer-logo:focus {
+    color: rgba(255, 255, 255, 0.6);
+}
+.logo {
+    color: var(--accent-color);
+}
+
+address > a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+address > a:hover, address > a:focus  {
+    color: var(--accent-color);
+}
+
+.button.second {
+color: var(--primary-text-color);
+background-color: var(--primary-bg-color);
+}
+
+.button.second:hover {
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+
+.button.first{
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+
+.button.first:hover {
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+}
+
+
+
+
