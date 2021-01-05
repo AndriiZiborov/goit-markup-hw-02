@@ -128,7 +128,7 @@ text-transform: uppercase;
     background-color: #F5F4FA;
 }
 
-h2 {
+.title {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
