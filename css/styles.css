@@ -20,15 +20,13 @@
 
 
 body {
-
+background-color: #ffffff;
 color: var(--primary-text-color);
 font-family: Roboto, sans-serif;
 letter-spacing: 0.03em;
-
-
 }
 
-/* site nav */
+/* шапка сайта */
 .list {
     list-style: none;
 }
@@ -37,7 +35,7 @@ letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
-.nav-site > a{
+.nav-site > a {
   color: var(--primary-text-color);
   font-family: Raleway, sans-serif;
 
@@ -45,6 +43,10 @@ letter-spacing: 0.03em;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+
+.nav-site a {
+    text-decoration: none;
 }
 
 .nav-site {
@@ -63,14 +65,9 @@ letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
 
-/*  -----------НЕ РАБОТАЕТ  */
-.nav-site > a:hover, 
-.nav-site > a:focus {
-    color:  var(--second-text-color);
-}
-    
 .nav-site .link:hover, 
 .nav-site .link:focus {
+
     color: var(--accent-color);
 }
 
@@ -78,20 +75,49 @@ letter-spacing: 0.02em;
     color: var(--second-text-color);
 }
 
+/* футер */
+
+footer {
+    background-color: #2F303A;
+    color: #ffffff;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+  
+  .footer-logo {
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+  
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+  }
+  
+  .logo {
+      color: var(--accent-color);
+  }
+  
+  address {
+      font-style: normal;
+      font-size: 14px;
+      line-height: 1.71;
+  }
+  address > a {
+      color: rgba(255, 255, 255, 0.6);
+  }
+  
+  address > a:hover, 
+  address > a:focus  {
+      color: var(--accent-color);
+  }
+
+
+
 /* заказ услуги */
 .service-container {
   background-color: #2F303A;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  
-  /* identical to box height, or 187% */
-  display: flex;
-  align-items: center;
-  text-align: center;
-  
 }
 
 .service-title { 
@@ -100,10 +126,11 @@ letter-spacing: 0.02em;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-/* or 136% */
-text-align: center;
-text-transform: uppercase;
 
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* Soft skills */
@@ -150,48 +177,33 @@ text-align: center;
   line-height: 1.18;
 }
 
-/* футер */
 
-footer {
-    background-color: #2F303A;
+
+/* стили кнопок */
+.button.first{
     color: #ffffff;
-}
+    background-color: var(--accent-color);
+    font-family: inherit;
 
-.footer-logo {
-  color: #ffffff;
-  font-family: Raleway, sans-serif;
-
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-}
-
-.footer-logo:hover, 
-.footer-logo:focus {
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.logo {
-    color: var(--accent-color);
-}
-
-address {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-}
-address > a {
-    color: rgba(255, 255, 255, 0.6);
-}
-
-address > a:hover, 
-address > a:focus  {
-    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .button.second {
-color: var(--primary-text-color);
-background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+  font-family: inherit;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
 }
 
 .button.second:hover, 
@@ -200,16 +212,28 @@ background-color: var(--primary-bg-color);
     background-color: var(--accent-color);
 }
 
-.button.first{
-    color: #ffffff;
-    background-color: var(--accent-color);
-}
 
 .button.first:hover {
     color: var(--primary-text-color);
     background-color: var(--primary-bg-color);
 }
 
+/* список предложений */
+.offers h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em
+}
+
+.offers p {
+    color: var(--second-text-color);
+    
+    font-size: 16px;
+    line-height: 1.87;
+}
+  
 
 
 
