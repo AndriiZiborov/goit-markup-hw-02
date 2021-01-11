@@ -4,6 +4,7 @@
     --accent-color: #2196F3;
     --second-text-color: #757575; 
     --primary-bg-color: #E5E5E5;
+    --medium-bg-color: #F5F4FA;
 }
 
 
@@ -135,7 +136,7 @@ footer {
 
 /* Soft skills */
 .softskills {
-    background-color: #F5F4FA;
+    background-color: var(--medium-bg-color);
 }
 
 .softskills-titles {
@@ -152,7 +153,7 @@ footer {
 }
 
 .activity-container {
-    background-color: #F5F4FA;
+    background-color: var(--medium-bg-color);
 }
 
 .title {
