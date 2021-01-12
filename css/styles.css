@@ -3,15 +3,18 @@
     --primary-text-color: #212121; 
     --accent-color: #2196F3;
     --second-text-color: #757575; 
-    --primary-bg-color: #E5E5E5;
-    --medium-bg-color: #F5F4FA;
+    --primary-bg-color: #F5F4FA;
+    --medium-bg-color: #E5E5E5;
+    --dark-bg-color: #2F303A;
+    --transparent-color: rgba(255, 255, 255, 0.6);
+    --white-color: #ffffff;
 }
 
 
 
 /* основной цвет текста #212121 */ 
 /* цвет вторичного текста #757575  */
-/* цвет акцента #2196F3*/
+/* цвет акцента #2196F3 */
 /* темный цвет фона #2F303A */
 /* светлый цвет фона #E5E5E5 */
 /* средний цвет фона #F5F4FA */
@@ -79,8 +82,8 @@ letter-spacing: 0.02em;
 /* футер */
 
 footer {
-    background-color: #2F303A;
-    color: #ffffff;
+    background-color: var(--dark-bg-color);
+    color: var(--white-color);
   }
   
   footer a {
@@ -88,7 +91,7 @@ footer {
   }
   
   .footer-logo {
-    color: #ffffff;
+    color: var(--white-color);
     font-family: Raleway, sans-serif;
   
     font-weight: 700;
@@ -106,7 +109,7 @@ footer {
       line-height: 1.71;
   }
   address > a {
-      color: rgba(255, 255, 255, 0.6);
+      color: var(--transparent-color);
   }
   
   address > a:hover, 
@@ -118,11 +121,11 @@ footer {
 
 /* заказ услуги */
 .service-container {
-  background-color: #2F303A;
+  background-color: var(--dark-bg-color);
 }
 
 .service-title { 
-  color: #ffffff; 
+  color: var(--white-color); 
 
   font-weight: 900;
   font-size: 44px;
@@ -182,7 +185,7 @@ text-align: center;
 
 /* стили кнопок */
 .button.first{
-    color: #ffffff;
+    color: var(--white-color);
     background-color: var(--accent-color);
     font-family: inherit;
 
@@ -209,7 +212,7 @@ text-align: center;
 
 .button.second:hover, 
 .button.second:focus {
-    color: #ffffff;
+    color: var(--white-color);
     background-color: var(--accent-color);
 }
 
@@ -220,11 +223,16 @@ text-align: center;
 }
 
 /* список предложений */
+.offers {
+  background-color: var(--medium-bg-color);
+}
+
 .offers h2 {
+  color: var(--primary-text-color);
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-
   letter-spacing: 0.06em
 }
 
@@ -234,7 +242,12 @@ text-align: center;
     font-size: 16px;
     line-height: 1.87;
 }
-  
+
+.offers a {
+  text-decoration: none;
+}
+
+
 
 
 
